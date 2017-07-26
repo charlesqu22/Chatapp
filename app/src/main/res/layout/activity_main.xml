@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.charlesqu.chatapp.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chatsroom Name"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/ChatroomTextview"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/NameEdittext"
+        android:layout_below="@+id/ChatroomTextview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:paddingLeft="10dp"
+        android:paddingTop="70dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/UsernameTextview"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/UsernameEdittext"
+        android:layout_below="@+id/UsernameTextview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incognito Mode"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:id="@+id/IncognitoModeTextview"
+        android:layout_below="@+id/UsernameEdittext"
+        android:textSize="10sp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SwitchButton"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/UsernameEdittext"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SwitchButton"/>
+
+
+</RelativeLayout>
