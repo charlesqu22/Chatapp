@@ -67,7 +67,8 @@
         android:layout_height="wrap_content"
         android:text="GO!"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/SwitchButton"/>
+        android:layout_below="@+id/SwitchButton"
+        android:onClick="enterChat"/>
 
 
 </RelativeLayout>
