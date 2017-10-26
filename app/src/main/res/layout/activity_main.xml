@@ -57,18 +57,20 @@
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/SwitchButton"
+        android:id="@+id/IncogButton"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/UsernameEdittext"
-        android:paddingRight="10dp" />
+        android:paddingRight="10dp"
+        android:checked="false"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GO!"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/SwitchButton"
-        android:onClick="enterChat"/>
-
+        android:layout_below="@+id/IncogButton"
+        android:onClick="enterChat"
+        />
 
 </RelativeLayout>
