@@ -28,7 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 
 
 import java.util.ArrayList;
-
+//git
 // 11/2/17
 // hello
 public class ChatActivity extends AppCompatActivity {
